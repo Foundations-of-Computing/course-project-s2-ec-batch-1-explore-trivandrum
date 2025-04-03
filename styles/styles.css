@@ -1,0 +1,70 @@
+
+
+body {
+    margin-left: 5px;
+    margin-right: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+	line-height: 1.5;
+  height: 100vh;
+	place-items: center;
+    background-color: #cad2da;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: #90badf;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: #ff6347;
+    color: #ffffff;
+    border-radius: 6px;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+img {
+    border-radius: 15px;
+    display: block; /* Ensures the image is centered */
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* Smooth effect */
+}
+
+img:hover {
+    transform: scale(1.1) translateY(-20px); /* Zooms bigger and moves upward */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.4); 
+    position: relative;
+    z-index: 10; /* Brings the image on top */
+}
+
+h1{
+color: beige;
+background-image: linear-gradient(45deg,  #3a634d 0%, #53533c 100%);
+border-radius: 15px;
+text-align: center;
+
+    
+}
+
+.p1{
+
+    font-family:Arial,sans-serif;
+}
+
+.p2{
+text-align: center;
+
+}
+h3{
+    text-decoration: underline;
+}
+
